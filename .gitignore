@@ -1,0 +1,22 @@
+# Ignore executables
+*.exe
+*.msi
+*.appx
+*.msix
+
+# Ignore binaries and symbols
+*.pdb
+*.dll
+*.wixpdb
+
+# Ignore packages
+*.deb
+*.tar.gz
+*.zip
+*.rpm
+*.pkg
+*.nupkg
+*.AppImage
+
+# VSCode directories that are not at the repository root
+/**/.vscode/
