@@ -25,6 +25,7 @@ $__currentPWSHModules =
 import-module psdefaults
 import-module psprofile
 import-module system
+import-module apps
 
 import-module psreadline
 import-module oh-my-posh
