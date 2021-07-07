@@ -23,3 +23,6 @@ export-modulemember -alias n
 
 set-alias winfetch pwshfetch-test-1
 export-modulemember -alias winfetch
+
+function trash { start shell:RecycleBinFolder; }
+export-modulemember -function trash
