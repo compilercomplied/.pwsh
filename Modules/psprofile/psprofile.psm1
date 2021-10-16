@@ -10,3 +10,7 @@ function Reset-Profile {
 }
 
 export-modulemember -function Reset-Profile
+
+
+set-alias -name .. -value cd..
+export-modulemember -alias ..
